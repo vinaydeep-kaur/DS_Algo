@@ -18,4 +18,7 @@ public class IsValidParanthese {
 		return stack.isEmpty();
 	}
 	
+	public static void main (String args[]) {
+		
+	}
 }
