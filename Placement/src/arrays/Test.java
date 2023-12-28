@@ -34,7 +34,7 @@ public class Test {
 
 	public static void bfs(char grid[][], int i, int j) {
 
-		if (i < 0 || i >= grid.length || j < 0 || j >= grid[i].length ||grid[i][j]=='0') {
+		if (i < 0 || i >= grid.length || j < 0 || j >= grid[i].length || grid[i][j] == '0') {
 			return;
 		}
 		grid[i][j] = '0';
@@ -43,5 +43,6 @@ public class Test {
 		bfs(grid, i - 1, j);
 		bfs(grid, i, j + 1);
 		bfs(grid, i, j - 1);
+
 	}
 }
