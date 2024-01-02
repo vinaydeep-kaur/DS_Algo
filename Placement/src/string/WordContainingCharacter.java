@@ -15,5 +15,4 @@ public class WordContainingCharacter {
 	        }
 	        return res;
 	    }
-	 
 }
