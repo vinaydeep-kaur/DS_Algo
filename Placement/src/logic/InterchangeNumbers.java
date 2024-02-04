@@ -9,7 +9,7 @@ public class InterchangeNumbers {
 		int t = a;
 		a=b;
 		b=c;
-		a=t;
+		c=t;
 		
 		System.out.println(a +" "+ b+" "+c);
 	}
