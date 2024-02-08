@@ -5,12 +5,12 @@ public class InstanceOf {
 		B b = new B();
 		C c = new C();
 		findInstance(b);
-		
+
 	}
 
 	private static void findInstance(Object o) {
-		
-		if ( o instanceof A) {
+
+		if (o instanceof A) {
 			System.out.println("o instanceof A");
 		}
 		if (o instanceof B) {
@@ -22,6 +22,6 @@ public class InstanceOf {
 		if (o instanceof Object) {
 			System.out.println("o instanceof Object");
 		}
-		
+
 	}
 }
